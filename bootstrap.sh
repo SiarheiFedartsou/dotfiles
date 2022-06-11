@@ -30,3 +30,6 @@ unzip Fira_Code_v6.2.zip -d fonts
 cp -r fonts/ttf/  ~/Library/Fonts
 rm -rf Fira_Code_v6.2.zip 
 rm -rf fonts
+
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
