@@ -22,3 +22,11 @@ EOL
 
 # fzf
 $(brew --prefix)/opt/fzf/install
+
+
+# Fira Code fonts
+curl -OL https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip 
+unzip Fira_Code_v6.2.zip -d fonts
+cp -r fonts/ttf/  ~/Library/Fonts
+rm -rf Fira_Code_v6.2.zip 
+rm -rf fonts
