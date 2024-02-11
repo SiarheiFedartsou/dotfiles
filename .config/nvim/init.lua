@@ -13,4 +13,3 @@ require('siarheif.plugins.lsp.mason')
 require('siarheif.plugins.lsp.lspconfig')
 require('siarheif.plugins.which-key')
 
-
