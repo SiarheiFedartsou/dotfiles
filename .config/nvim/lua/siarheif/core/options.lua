@@ -4,7 +4,7 @@ local api = vim.api
 opt.relativenumber = true
 opt.number = true
 
-opt.statuscolumn = '%#SiarheiFAbsNumHL#%l%=%#SiarheiFRelNumHL#%r ' 
+opt.statuscolumn = '%#SiarheiFAbsNumHL#%l %=%#SiarheiFRelNumHL#%r ' 
 
 opt.tabstop = 2
 opt.shiftwidth = 2

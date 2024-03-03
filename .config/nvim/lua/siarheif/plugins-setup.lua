@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
 
   use 'nvim-lualine/lualine.nvim'
 
-  use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+  use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
   use { 'nvim-telescope/telescope.nvim', tag = '0.1.5' }
 
   use 'hrsh7th/nvim-cmp'
